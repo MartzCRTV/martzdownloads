@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="author" content="Danaymo">
+    <meta name="keywords" content="developer, website, minecraft, templates, sites gratis">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>Inicio</title>
+    <link rel="stylesheet" href="assets/estilo/css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="assets/estilo/css/style.css" type="text/css">
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
+</head>
+<body>
+   
+    <header>
+        <div class="jumbotron jumbotron-fluid">
+            <div class="container text-center text-white new-text">
+                <img src="assets/imagem/logo_extends.png" class="img-fluid" alt="">
+            </div>
+        </div>
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html"><i class="fa fa-fw fa-home"></i> Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="packs.html"><i class="fa fa-fw fa-diamond"></i> Packs</a>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <midle>
+       <div class="container">
+           <div class="row">
+               <div class="col-md-8">
+                   <div class="card">
+                       <div class="card-body">
+                           Seja bem-vindo ao site de packs do MartzCreative!!!
+						   <p>
+						   
+						   </p>
+						   <p>
+						   Em breve estará disponiveis os Packs Gratis na àrea de PACKS, apenas aguarde.
+						   </p>
+                       </div>
+                   </div>
+               </div>
+               <div class="col-md-4">
+                   <div class="sidebar-module">
+                       <div class="card">
+                           <h3 class="card-header text-center text-uppercase font-weight-bold bg-transparent">
+                               Informações
+                           </h3>
+                           <ul class="list-group list-group-flush">
+                               <li class="list-group-item">Packs: <span class="pull-right badge badge-success text-uppercase">Gratis & Pago</span></li>
+                               <li class="list-group-item">Versões: <span class="pull-right font-weight-bold">V4 - V5 - V6</span></li>
+                               <li class="list-group-item">V4 & V5: <span class="pull-right font-weight-bold">Gratis</span></li>
+                               <li class="list-group-item">V6<span class="pull-right font-weight-bold">Pago</span></li>
+                               <li class="list-group-item text-center">
+                        <a href="packs.html">
+                        <button class="btn btn-primary btn-lg mb-3 text-uppercase font-weight-bold"">Ver Packs</button> 
+                         <p><small>Clique no botão para ver os packs!</small></p>
+                               </li>
+                           </ul>
+                       </div>
+                   </div>
+                   <div class="sidebar-module">
+                       <div class="card">
+                           <h3 class="card-header text-center text-uppercase font-weight-bold bg-transparent">
+                               Twitter
+                           </h3>
+                           <div class="card-body">
+                               <a class="twitter-timeline" data-width="100%" data-height="100%" href="https://twitter.com/escalenomc">Meus Tweets</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+                           </div>
+                       </div>
+                   </div>
+               </div>
+           </div>
+       </div>
+    </midle>
+    <footer>
+        <div class="container">
+            <div class="text">
+                <div class="text-center">&copy; 2019 | MartzPacks - Packs: PS & C4D <a href="http://martzpacks.netlify.com" target="_blank" class="pull-right"></a></div>
+            </div>
+        </div>
+    </footer>
+   
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/clipboard.js/1.5.13/clipboard.min.js"></script>
+    <script src="assets/estilo/js/other.js"></script>
+
+    <script type="text/javascript">
+        var clipboard = new Clipboard('.copyIp');
+        var clipboardaction = false;
+        clipboard.on('success', function(e) {
+            if (!clipboardaction) {
+                clipboardaction = true;
+                alert("IP copiado com sucesso!");
+                setTimeout(function() {
+                    setTimeout(function() {
+                        clipboardaction = false;
+                    }, 1000);
+                }, 1000);
+            }
+        });
+    </script>
+    
+</body>
+</html>
